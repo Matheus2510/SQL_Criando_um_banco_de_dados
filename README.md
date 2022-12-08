@@ -27,4 +27,4 @@ Em seguida, a partir da entrevista, criou-se um modelo lógico das tabelas neces
 
 Como complemento à etapa anterior, desenvolveu-se um script SQL para a criação dessas mesmas tabelas e suas relações e, também, suas restrições para entrada de dados. Assim foi possível definir padrões para as informações inseridas nas tabelas.
 
-Para finalizar, 
+Para finalizar, um script Python foi elaborado para a criação de dados fictícios para 3 tabelas de gestão das operações e uma tabela de tempo. As tabelas usadas como exemplo foram escolhidas apenas para exemplificar como funcionaria a carga dos seus dados com utilização da linguagem Python e, também, para apresentar algumas técnicas de manipulação de dados e dataframes. Vale ressaltar que, principalmente, as funçõoes relacionadas à conexão do Python com o próprio banco de dados Postgresql são as mais essenciais, pois permitem o tratamento dos dados inicialmente com o Python e suas ferramentas, o que facilita bastante a utilização por quem tem mais familiaridade com a linguagem.
