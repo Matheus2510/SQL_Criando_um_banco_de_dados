@@ -1,4 +1,4 @@
-# Criação de um banco de dados com Python e Postgresql
+# Criação de um banco de dados com Python e PostgreSQL
 
 Aqui é apresentada uma proposta de banco de dados que engloba desde as etapas iniciais, como a entrevista com os responsáveis pelo negócio e elaboração do modelo lógico, até as fases finais, com a criação das tabelas e seus relacionamentos, inclusive com a carga exemplificativa de algumas delas.
 
@@ -10,14 +10,19 @@ Há quatro arquivos auxiliares neste repositório:
 
 A leitura destes complementa o que é apresentado aqui e, também, dá uma visão mais aprofundada da proposta.
 
-# Serviços utilizados
+## Tecnologias
+- Python versão 3.7.14
+- Google Chrome Versão 107.0.5304.123
+- PostgreSQL versão 15.1
+
+## Serviços utilizados
 
 - https://app.brmodeloweb.com/
 - shopify.com/br/ferramentas/gerador-nomes-para-empresas/
 - Postgresql
 - Jupyter Notebook
 
-# Como usar
+## Como usar
 
 O ramo de negócio abordado aqui é o das assessorias, que geralmente fornecem terceirização de atendimento ao consumidor para empresas de todos os portes. No caso apresentado, as empresas principais são fictícias, com seus nomes criados com auxílio da plataforma Shopify, bem como os portes de suas operações - a única regra imposta é a proporção de funcionários em cada cargo.
 
@@ -27,4 +32,22 @@ Em seguida, a partir da entrevista, criou-se um modelo lógico das tabelas neces
 
 Como complemento à etapa anterior, desenvolveu-se um script SQL para a criação dessas mesmas tabelas e suas relações e, também, suas restrições para entrada de dados. Assim foi possível definir padrões para as informações inseridas nas tabelas.
 
-Para finalizar, um script Python foi elaborado para a criação de dados fictícios para 3 tabelas de gestão das operações e uma tabela de tempo. As tabelas usadas como exemplo foram escolhidas apenas para exemplificar como funcionaria a carga dos seus dados com utilização da linguagem Python e, também, para apresentar algumas técnicas de manipulação de dados e dataframes. Vale ressaltar que, principalmente, as funçõoes relacionadas à conexão do Python com o próprio banco de dados Postgresql são as mais essenciais, pois permitem o tratamento dos dados inicialmente com o Python e suas ferramentas, o que facilita bastante a utilização por quem tem mais familiaridade com a linguagem.
+Para finalizar, um script Python foi elaborado para a criação de dados fictícios para 3 tabelas de gestão das operações e uma tabela de tempo. As tabelas usadas como exemplo foram escolhidas apenas para exemplificar como funcionaria a carga dos seus dados com utilização da linguagem Python e, também, para apresentar algumas técnicas de manipulação de dados e dataframes. Vale ressaltar que, principalmente, as funçõoes relacionadas à conexão do Python com o próprio banco de dados PostgreSQL são as mais essenciais, pois permitem o tratamento dos dados inicialmente com o Python e suas ferramentas, o que facilita bastante a utilização por quem tem mais familiaridade com a linguagem.
+
+# Features
+
+- Modelagem relacional
+- Modelagem de banco de dados
+- SQL
+- Bancos de dados
+- Python | Pandas | Psycopg2
+- Tratamento de dados
+- ETL
+
+## Versão
+
+* 1.0.0.0
+
+## Autores
+
+* Matheus Henrique de Souza: @Matheus2510 (https://github.com/Matheus2510)
