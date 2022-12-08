@@ -21,4 +21,10 @@ A leitura destes complementa o que é apresentado aqui e, também, dá uma visã
 
 O ramo de negócio abordado aqui é o das assessorias, que geralmente fornecem terceirização de atendimento ao consumidor para empresas de todos os portes. No caso apresentado, as empresas principais são fictícias, com seus nomes criados com auxílio da plataforma Shopify, bem como os portes de suas operações - a única regra imposta é a proporção de funcionários em cada cargo.
 
-Primeiramente, criou-se resultado para a entrevista fictício, baseado no que é de conhecimento comum sobre
+Primeiramente, criou-se resultado para a entrevista fictício, baseado no que é de conhecimento comum sobre esse tipo de instituição, abordando suas estruturas hierárquicas e relacionais com as empresas para as quais fornece seus serviços.
+
+Em seguida, a partir da entrevista, criou-se um modelo lógico das tabelas necessárias para comportar as informações desejadas pela assessoria, com ênfase em evitar a repetição de informações para economia de memória. No referido modelo já é possível visualizar as conexões existentes entre cada tabela.
+
+Como complemento à etapa anterior, desenvolveu-se um script SQL para a criação dessas mesmas tabelas e suas relações e, também, suas restrições para entrada de dados. Assim foi possível definir padrões para as informações inseridas nas tabelas.
+
+Para finalizar, 
