@@ -34,7 +34,7 @@ Como complemento à etapa anterior, desenvolveu-se um script SQL para a criaçã
 
 Para finalizar, um script Python foi elaborado para a criação de dados fictícios para 3 tabelas de gestão das operações e uma tabela de tempo. As tabelas usadas como exemplo foram escolhidas apenas para exemplificar como funcionaria a carga dos seus dados com utilização da linguagem Python e, também, para apresentar algumas técnicas de manipulação de dados e dataframes. Vale ressaltar que, principalmente, as funçõoes relacionadas à conexão do Python com o próprio banco de dados PostgreSQL são as mais essenciais, pois permitem o tratamento dos dados inicialmente com o Python e suas ferramentas, o que facilita bastante a utilização por quem tem mais familiaridade com a linguagem.
 
-# Features
+## Features
 
 - Modelagem relacional
 - Modelagem de banco de dados
